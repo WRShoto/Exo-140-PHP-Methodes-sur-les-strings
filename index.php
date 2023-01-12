@@ -2,13 +2,13 @@
 
 // Compléter le code ci dessous pour afficher la longueur de la chaine de caracteres
 
-echo      ("google");
+echo "la longueur de la chaine est de ".strlen("google");
 
 //echo"<br><br>"; //Decommentez les <br> pour tester l'affichage lorsque vous aurez plusieurs instructions
 
 // Compléter le code ci dessous pour inverser la chaine de caractere
 
-echo  ("anticonstitutionellement");
+echo strrev("anticonstitutionellement");
 
 // Et si vous testiez également avec votre prénom ?
 
@@ -18,6 +18,6 @@ echo  ("anticonstitutionellement");
 
 // Compléter le code ci dessous pour remplacer le mot ok par non
 $oldtxt = "Ok Google!";
-$newtxt = (, , );
+$newtxt = str_replace( 'Ok','Non', $oldtxt );
 
 echo $newtxt;
